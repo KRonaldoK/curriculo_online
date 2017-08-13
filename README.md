@@ -9,10 +9,10 @@
 
 ### Preview:
 O currículo renderizado em um browser tem a sua aparência na seguinte forma:
-![](https://1drv.ms/f/s!AnNz-w23W-1CjLV4VncBBh3cKLKuSA)
-![](https://1drv.ms/i/s!AnNz-w23W-1CjLV6Sxdh2fngLzgqLA)
-![](https://1drv.ms/i/s!AnNz-w23W-1CjLV72randkw4Z3YlQw)
-![](https://1drv.ms/i/s!AnNz-w23W-1CjLV8hRgQmk3UUNqQEQ)
+![tela 1](https://1drv.ms/f/s!AnNz-w23W-1CjLV4VncBBh3cKLKuSA)
+![tela 2](https://1drv.ms/i/s!AnNz-w23W-1CjLV6Sxdh2fngLzgqLA)
+![tela 3](https://1drv.ms/i/s!AnNz-w23W-1CjLV72randkw4Z3YlQw)
+![tela 4](https://1drv.ms/i/s!AnNz-w23W-1CjLV8hRgQmk3UUNqQEQ)
 
 E o repositório inclui os seguintes arquivos:
 
