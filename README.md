@@ -1,3 +1,4 @@
+
 # curriculo_online
 ## Projeto Currículo Online
 
@@ -8,10 +9,16 @@
 
 
 ### Preview:
-O currículo renderizado em um browser tem a sua aparência na seguinte forma:
+
+## O currículo renderizado em um browser tem a sua aparência na seguinte forma:
+
+Tela 1
 ![tela 1](https://lqz02q-dm2306.files.1drv.com/y4mID1HDWZbzVcQA12GVYfAPwWm_SU73McfsGExZKDPziAJ64Yscl697EJqtCVh1gZrgWM7Q1v_feuJLoDuvi7EaJgBrhamp8wfkhNCDNIbNDkvE_aIQIir1P4wb3na8TX2-PjDfwWBCY3Sq7EdUwbWXreEEliQTJApDIIVbpcs2f6xzHcz3NtgHkpxg2rc6BrWWHVeOIYHhQdVpwiOZyKNyw?width=1261&height=892&cropmode=none)
+Tela 2
 ![tela 2](https://afrrwq-dm2306.files.1drv.com/y4mU2AC55pvMD05tBiS_PWbi5NOWUBzMMKeQ_RjKBYxFMKOCNGp-2pdbfO6V5G1QaWyheYo8Gi0G4EsT9YPjIbTJqeXQY7GGRTOkI9Ar3Cmp84OAPlJWiTPbT3leGDZogxnPGxtb71_jEc3P_k_qJuFys6qezKGy5xIi3AIAr7hNTyE85ToLseAau6BItO0yLVbCpNpipdN8nHJ3g3hKQFVQw?width=1261&height=892&cropmode=none)
+Tela 3
 ![tela 3](https://zevdhw.dm2302.livefilestore.com/y4mvgZSgWxZPATwLWZCnfgsYzjqszSBwy7KaND1jEQ57SFn8MgNsdlc9hy_sSB6wCnoYaXwzS2-h2AwlJRWoFUflPRCl1gMgIeCJ6FeK8wmFGzn3rpE0Rc4qUvvu1oG-ygBtQbcVGbJXeA1sw5bfo5rW7yJd1-6Fdid7LctEuxCpOPrdnqQ-GFfC8VyXQYzCiYg-NlS8trzsVfXPnqzhijX8w?width=1263&height=612&cropmode=none)
+Tela 4
 ![tela 4](https://nkm6bw.dm1.livefilestore.com/y4mWEeaedhShVxFqG65SvPABQFUTQp6UfZUKFRK1M3YGuvB3FAHsQ6CPgCt-h8xBfU1iHO6AFrl52yyC2zoGnAKy_66FzzsTmSf3PVsv9nd0dooK-gi57KL0PDUq6beib8NjwNw5wgtTlj8Qyj6ryt8y3KWTJcTy40Qpmbu_vHyLNGOkJh9M-Qn2KwH41Uq0FSKeH05oDMh1WcJItsPECjB2Q?width=1263&height=608&cropmode=none)
 
 E o repositório inclui os seguintes arquivos:
