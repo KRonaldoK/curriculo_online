@@ -1,4 +1,3 @@
-
 # curriculo_online
 ## Projeto Currículo Online
 
@@ -24,7 +23,7 @@ Tela 4
 E o repositório inclui os seguintes arquivos:
 
 * **index.html**: O documento HTML. Contém links para todos os recursos CSS e JS necessários para processar o currículo, incluindo para o arquivo Javascript resumeBuilder.js.
-** js/helper.js**: Contém código auxiliar necessário para formatar o currículo e construir o mapa. 
+* **js/helper.js**: Contém código auxiliar necessário para formatar o currículo e construir o mapa. 
 * **js/resumeBuilder.js**: Este arquivo está preenchido com meus dados (desatualizados na corrente data). Você deve escrever seu código aqui, substituindo os dados exemplificados ou adicionando mais informação conforme o exemplo de currículo que deseje construir/estudar/exercitar;
 * **js/jQuery.js**: A biblioteca jQuery.
 * **css/style.css**: Contém o CSS utilizado para compor o estilo da página. 
@@ -40,7 +39,7 @@ Estes são os passos para que o currículo dinamicamente seja preenchido, siga c
 ### js/helper.js
 Dentro de helper.js há coleções de strings contendo snippets de HTML. Nos snippets são encontrados 'placeholders' de dados, como `%data%` ou `%contact%`.
 
-Cada string tem um título que descreve como ela deve ser usada. Por exemplo, 'HTMLworkStart' deve ser o primeiro '<div>' na seção do currículo. 'HTMLschoolLocation' contém um 'placeholder' `%data%`, que foi preenchido com a localização de uma das instituições de ensino.
+Cada string tem um título que descreve como ela deve ser usada. Por exemplo, 'HTMLworkStart' deve ser o primeiro `<div>` na seção do currículo. 'HTMLschoolLocation' contém um "placeholder" `%data%`, que foi preenchido com a localização de uma das instituições de ensino.
 
 ### O processo:
 O currículo tem quatro secções distintas: trabalho, educação, projetos e um cabeçalho com informações biográficas. Foi preciso:
