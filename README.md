@@ -52,7 +52,7 @@ O currículo tem quatro secções distintas: trabalho, educação, projetos e um
                   location: string
             welcomeMessage: string 
             skills: array of strings
-            biopic: url
+             biopic: url
             display: function taking no parameters
 
 * `education` contém:
@@ -92,7 +92,7 @@ O currículo tem quatro secções distintas: trabalho, educação, projetos e um
 
 2. Foi construída uma iteração (loop) para cada JSON e adicionada a sua respectiva informação ao arquivo index.html na seção correta.
 
-* Primeiro de tudo, foram utilizadas as funções `selector.append()` e `selector.prepend()`do JQuery  para modificar o index.html.  A função `selector.append()` faz um elemento aparecer no final da seção - do HTML - selecionada e a função `selector.prepend()` faz um elemento aparecer no início da seção - do HTML - selecionada.
+* Primeiro de tudo, foram utilizadas as funções `selector.append()` e `selector.prepend()` do JQuery  para modificar o index.html.  A função `selector.append()` faz um elemento aparecer no final da seção - do HTML - selecionada e a função `selector.prepend()` faz um elemento aparecer no início da seção - do HTML - selecionada.
  	
 	* Preste bastante atenção nos ids dos `<div>`s no arquivo index.html e nos snippets de HTML no arquivo helper.js. Eles foram muito úteis como seletores do JQuery para os métodos `selector.append()` e `selector.prepend()`.
    
