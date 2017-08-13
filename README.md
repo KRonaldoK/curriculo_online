@@ -4,15 +4,15 @@
 1. Este projeto pode ser utilizado como template para construir um currículo baseado em HTML e também se presta como objeto de estudo e exercitação para aqueles que desejem treinar e aprender fundamentos de Javascript, HTML, CSS assim como se familiarizar com a notação de dados do tipo JSON e conhecer, tendo uma noção do que a biblioteca JQuery pode fornecer em termos de funcionalidade no código Javascript de uma página HTML. Primariamente, a linguagem Javascript (com JQuery), utilizando JSON é o alvo do projeto.
 2. Neste readme.md existem instruções como você deve personalizar este projeto para construir o currículo que deseja - existem dicas e orientações para isso, a parte necessária que utiliza JQuery está descrita e explicada, de forma que este projeto é uma boa forma de conhecer (ou rever) um pouco da funcionalidade desta esta biblioteca. Como exemplo, este projeto está completo, assim, neste readme.md, estão exaltados todos os pontos que devem (e foram implementados) para análise e estudo, ou extensão de funcionalidades.
 2. Neste projeto foi desenvolvido um currículo interativo que lê conteúdo de um arquivo JSON e dinamicamente mostra esse conteúdo em uma página HTML, dentro de um modelo CSS. Em Javascript foram utilizados objetos, funções, condicionais e estruturas de controle para compor o conteúdo que será exibido na página HTML. Uma breve utilização de JQuery também foi feita.
-3. Este projeto foi concluído com sucesso como uma das tarefas para concluir o curso da especialização Frontend Developer Nanodegree da ![Udacity] (https://br.udacity.com).
+3. Este projeto foi concluído com sucesso como uma das tarefas para concluir o curso da especialização Frontend Developer Nanodegree da [Udacity] (https://br.udacity.com).
 
 
 ### Preview:
 O currículo renderizado em um browser tem a sua aparência na seguinte forma:
-![tela 1](https://1drv.ms/f/s!AnNz-w23W-1CjLV4VncBBh3cKLKuSA)
-![tela 2](https://1drv.ms/i/s!AnNz-w23W-1CjLV6Sxdh2fngLzgqLA)
-![tela 3](https://1drv.ms/i/s!AnNz-w23W-1CjLV72randkw4Z3YlQw)
-![tela 4](https://1drv.ms/i/s!AnNz-w23W-1CjLV8hRgQmk3UUNqQEQ)
+![tela 1](https://lqz02q-dm2306.files.1drv.com/y4mID1HDWZbzVcQA12GVYfAPwWm_SU73McfsGExZKDPziAJ64Yscl697EJqtCVh1gZrgWM7Q1v_feuJLoDuvi7EaJgBrhamp8wfkhNCDNIbNDkvE_aIQIir1P4wb3na8TX2-PjDfwWBCY3Sq7EdUwbWXreEEliQTJApDIIVbpcs2f6xzHcz3NtgHkpxg2rc6BrWWHVeOIYHhQdVpwiOZyKNyw?width=1261&height=892&cropmode=none)
+![tela 2](https://afrrwq-dm2306.files.1drv.com/y4mU2AC55pvMD05tBiS_PWbi5NOWUBzMMKeQ_RjKBYxFMKOCNGp-2pdbfO6V5G1QaWyheYo8Gi0G4EsT9YPjIbTJqeXQY7GGRTOkI9Ar3Cmp84OAPlJWiTPbT3leGDZogxnPGxtb71_jEc3P_k_qJuFys6qezKGy5xIi3AIAr7hNTyE85ToLseAau6BItO0yLVbCpNpipdN8nHJ3g3hKQFVQw?width=1261&height=892&cropmode=none)
+![tela 3](https://zevdhw.dm2302.livefilestore.com/y4mvgZSgWxZPATwLWZCnfgsYzjqszSBwy7KaND1jEQ57SFn8MgNsdlc9hy_sSB6wCnoYaXwzS2-h2AwlJRWoFUflPRCl1gMgIeCJ6FeK8wmFGzn3rpE0Rc4qUvvu1oG-ygBtQbcVGbJXeA1sw5bfo5rW7yJd1-6Fdid7LctEuxCpOPrdnqQ-GFfC8VyXQYzCiYg-NlS8trzsVfXPnqzhijX8w?width=1263&height=612&cropmode=none)
+![tela 4](https://nkm6bw.dm1.livefilestore.com/y4mWEeaedhShVxFqG65SvPABQFUTQp6UfZUKFRK1M3YGuvB3FAHsQ6CPgCt-h8xBfU1iHO6AFrl52yyC2zoGnAKy_66FzzsTmSf3PVsv9nd0dooK-gi57KL0PDUq6beib8NjwNw5wgtTlj8Qyj6ryt8y3KWTJcTy40Qpmbu_vHyLNGOkJh9M-Qn2KwH41Uq0FSKeH05oDMh1WcJItsPECjB2Q?width=1263&height=608&cropmode=none)
 
 E o repositório inclui os seguintes arquivos:
 
