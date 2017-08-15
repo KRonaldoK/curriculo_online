@@ -1,16 +1,8 @@
 /*
-
-This file contains all of the code running in the background that makes resumeBuilder.js possible. We call these helper functions because they support your code in this course.
-
-Don't worry, you'll learn what's going on in this file throughout the course. You won't need to make any changes to it until you start experimenting with inserting a Google Map in Problem Set 3.
-
-Cameron Pittman
-*/
-
-/*
-These are HTML strings. As part of the course, you'll be using JavaScript functions
+These are HTML strings. The JavaScript functions will
 replace the %data% placeholder text you see in them.
 */
+'use strict';
 var HTMLheaderName = '<h1 id="name">%data%</h1>';
 var HTMLheaderRole = '<span class="roleClass">%data%</span><hr/>';
 
@@ -81,7 +73,8 @@ $(document).ready(function() {
 /*
 The next few lines about clicks are for the Collecting Click Locations quiz in Lesson 2.
 */
-clickLocations = [];
+
+var clickLocations = [];
 
 function logClicks(x,y) {
   clickLocations.push(
@@ -93,8 +86,14 @@ function logClicks(x,y) {
   console.log('x location: ' + x + '; y location: ' + y);
 }
 
-$(document).click(function(loc) {
-  // your code goes here!
+/*
+Lesson 2  - Flow Control > Collecting Click Locations
+*/
+
+$(document).click(function(loc){
+    var x = loc.pageX;
+    var y = loc.pageY;
+    logClicks(x, y);
 });
 
 /*
@@ -175,7 +174,7 @@ function initializeMap() {
 
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
-      infowindow.open(map, marker);
+      infoWindow.open(map, marker);
     });
 
     // this is where the pin actually gets added to the map.

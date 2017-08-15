@@ -5,6 +5,7 @@ var bio =
 	"contacts": {
 		"mobile": "+55-21-981875613",
 		"email": "kaoru.ronaldo@gmail.com",
+		"github": "github.com/KRonaldoK",
 		"facebook": "www.facebook.com/kronaldok",
 		"location": "Rio de Janeiro, Brazil"
 	},
@@ -78,8 +79,8 @@ var work =
 				},
 				{
 					"employer":"Next Consulting",
-					"title":"Praça Pio X, Centro, Rio de Janeiro, RJ, Brazil",
-					"location":"Rio de Janeiro, Brazil",
+					"title":"Systems Analyst",
+					"location":"Praça Pio X, Centro, Rio de Janeiro, RJ, Brazil",
 					"dates":"1998 - 2000",
 					"description":["Member of the development team in Java, Oracle PL-SQL, Sybase Powerbuilder, Unix shell scripting;"]
 				},
@@ -317,12 +318,3 @@ function inName() {
 // Commented
 //$('#main').append(internationalizeButton);
 
-/*
-Lesson 2  - Flow Control > Collecting Click Locations
-*/
-
-$(document).click(function(loc){
-		var x = loc.pageX;
-		var y = loc.pageY;
-		logClicks(x, y);
-});
