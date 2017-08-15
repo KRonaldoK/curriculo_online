@@ -1,8 +1,7 @@
-
 # curriculo_online
 ## Projeto Currículo Online
 
-1. Este projeto pode ser utilizado como template para construir um currículo baseado em HTML e também se presta como objeto de estudo e exercitação para aqueles que desejem treinar e aprender fundamentos de Javascript, HTML, CSS assim como se familiarizar com a notação de dados do tipo JSON e conhecer, tendo uma noção do que a biblioteca JQuery pode fornecer em termos de funcionalidade no código Javascript de uma página HTML. Primariamente, a linguagem Javascript (com JQuery), utilizando JSON é o alvo do projeto.
+1. Este projeto pode ser utilizado como template para construir um currículo baseado em HTML e também se presta como objeto de estudo e exercitação para aqueles que desejem treinar e aprender oru revisar fundamentos de Javascript, HTML, CSS assim como se familiarizar com a notação de dados do tipo JSON e conhecer, tendo uma noção do que a biblioteca JQuery pode fornecer em termos de funcionalidade no código Javascript de uma página HTML. Primariamente, a linguagem Javascript (com um pouco de JQuery), utilizando JSON é o alvo do projeto.
 2. Neste readme.md existem instruções como você deve personalizar este projeto para construir o currículo que deseja - existem dicas e orientações para isso, a parte necessária que utiliza JQuery está descrita e explicada, de forma que este projeto é uma boa forma de conhecer (ou rever) um pouco da funcionalidade desta esta biblioteca. Como exemplo, este projeto está completo, assim, neste readme.md, estão exaltados todos os pontos que devem (e foram implementados) para análise e estudo, ou extensão de funcionalidades.
 2. Neste projeto foi desenvolvido um currículo interativo que lê conteúdo de um arquivo JSON e dinamicamente mostra esse conteúdo em uma página HTML, dentro de um modelo CSS. Em Javascript foram utilizados objetos, funções, condicionais e estruturas de controle para compor o conteúdo que será exibido na página HTML. Uma breve utilização de JQuery também foi feita.
 3. Este projeto foi concluído com sucesso como uma das tarefas para concluir o curso da especialização Frontend Developer Nanodegree da [Udacity] (https://br.udacity.com).
@@ -24,7 +23,7 @@ Tela 4
 E o repositório inclui os seguintes arquivos:
 
 * **index.html**: O documento HTML. Contém links para todos os recursos CSS e JS necessários para processar o currículo, incluindo para o arquivo Javascript resumeBuilder.js.
-** js/helper.js**: Contém código auxiliar necessário para formatar o currículo e construir o mapa. 
+* **js/helper.js**: Contém código auxiliar necessário para formatar o currículo e construir o mapa. 
 * **js/resumeBuilder.js**: Este arquivo está preenchido com meus dados (desatualizados na corrente data). Você deve escrever seu código aqui, substituindo os dados exemplificados ou adicionando mais informação conforme o exemplo de currículo que deseje construir/estudar/exercitar;
 * **js/jQuery.js**: A biblioteca jQuery.
 * **css/style.css**: Contém o CSS utilizado para compor o estilo da página. 
@@ -40,7 +39,7 @@ Estes são os passos para que o currículo dinamicamente seja preenchido, siga c
 ### js/helper.js
 Dentro de helper.js há coleções de strings contendo snippets de HTML. Nos snippets são encontrados 'placeholders' de dados, como `%data%` ou `%contact%`.
 
-Cada string tem um título que descreve como ela deve ser usada. Por exemplo, 'HTMLworkStart' deve ser o primeiro '<div>' na seção do currículo. 'HTMLschoolLocation' contém um 'placeholder' `%data%`, que foi preenchido com a localização de uma das instituições de ensino.
+Cada string tem um título que descreve como ela deve ser usada. Por exemplo, 'HTMLworkStart' deve ser o primeiro `<div>` na seção do currículo. 'HTMLschoolLocation' contém um "placeholder" `%data%`, que foi preenchido com a localização de uma das instituições de ensino.
 
 ### O processo:
 O currículo tem quatro secções distintas: trabalho, educação, projetos e um cabeçalho com informações biográficas. Foi preciso:
@@ -117,4 +116,4 @@ O currículo tem quatro secções distintas: trabalho, educação, projetos e um
 4. Todo o código para adicionar elementos ao currículo está contido em funções. E todas as suas funções estão encapsuladas dentro dos mesmos objetos que contém os dados do seu currículo. por exemplo, as funções para adicionar elementos que contém experiências profissionais à página são encontradas dentro do mesmo objeto que contêm os dados a respeito das experiências profissionais.
 
 5. O currículo deve também loga (usando `console.log()`) informação sobre os pontos aonde o usuário clicou na tela do currículo. Na linha 90 de  helper.js, você encontrará o handler do JQuery - onclick handler - que foi codificado, implementado para trabalhar com a função `logClicks(x,y)` - que está acima desse handler.
-6. É possível adicionar informação que aparecerão no click dos pins no mapa. Verifique a linha 174 em helper.js e a API do Google Maps API como ponto de partida para adicionar esta funcionalidade. Este ponto não está implementado no atual momento.
+6. **É possível adicionar informação que aparecerá no click dos pins no mapa. Verifique a linha 176 em helper.js e a API do Google Maps API como ponto de partida para adicionar esta funcionalidade. Este ponto ~~não~~ está implementado no atual momento.**
