@@ -1,9 +1,9 @@
 # curriculo_online
 ## Projeto Currículo Online
 
-1. Este projeto pode ser utilizado como template para construir um currículo baseado em HTML e também se presta como objeto de estudo e exercitação para aqueles que desejem treinar e aprender oru revisar fundamentos de Javascript, HTML, CSS assim como se familiarizar com a notação de dados do tipo JSON e conhecer, tendo uma noção do que a biblioteca JQuery pode fornecer em termos de funcionalidade no código Javascript de uma página HTML. Primariamente, a linguagem Javascript (com um pouco de JQuery), utilizando JSON é o alvo do projeto.
-2. Neste readme.md existem instruções como você deve personalizar este projeto para construir o currículo que deseja - existem dicas e orientações para isso, a parte necessária que utiliza JQuery está descrita e explicada, de forma que este projeto é uma boa forma de conhecer (ou rever) um pouco da funcionalidade desta esta biblioteca. Como exemplo, este projeto está completo, assim, neste readme.md, estão exaltados todos os pontos que devem (e foram implementados) para análise e estudo, ou extensão de funcionalidades.
-2. Neste projeto foi desenvolvido um currículo interativo que lê conteúdo de um arquivo JSON e dinamicamente mostra esse conteúdo em uma página HTML, dentro de um modelo CSS. Em Javascript foram utilizados objetos, funções, condicionais e estruturas de controle para compor o conteúdo que será exibido na página HTML. Uma breve utilização de JQuery também foi feita.
+1. Este projeto pode ser utilizado como template para construir um currículo baseado em **HTML** e também se presta como objeto de estudo e exercitação para aqueles que desejem treinar e aprender oru revisar fundamentos de **Javascript**, HTML, **CSS** assim como se familiarizar com a notação de dados do tipo **JSON** e conhecer, tendo uma noção do que a biblioteca **jQuery** pode fornecer em termos de funcionalidade no código Javascript de uma página HTML. Primariamente, a linguagem Javascript com jQuery, utilizando JSON é o alvo do projeto. Secundariamente, há o consumo da **API do Gooogle Maps**, para a a renderização de um mapacom seus marcadores de localidades.
+2. Neste readme.md existem instruções como você deve personalizar este projeto para construir o currículo que deseja - existem dicas e orientações para isso, a parte necessária que utiliza jQuery está descrita e explicada, de forma que este projeto é uma boa forma de conhecer (ou rever) um pouco da funcionalidade desta esta biblioteca. Como exemplo, este projeto está completo, assim, neste readme.md, estão exaltados todos os pontos que devem (e foram implementados) para análise e estudo, ou extensão de funcionalidades.
+2. Neste projeto foi desenvolvido um currículo interativo que lê conteúdo de um arquivo JSON e dinamicamente mostra esse conteúdo em uma página HTML, dentro de um modelo CSS. Em Javascript foram utilizados objetos, funções, condicionais e estruturas de controle para compor o conteúdo que será exibido na página HTML. A utilização de jQuery também foi feita.
 3. Este projeto foi concluído com sucesso como uma das tarefas para concluir o curso da especialização Frontend Developer Nanodegree da [Udacity] (https://br.udacity.com).
 
 
@@ -44,7 +44,7 @@ Cada string tem um título que descreve como ela deve ser usada. Por exemplo, 'H
 ### O processo:
 O currículo tem quatro secções distintas: trabalho, educação, projetos e um cabeçalho com informações biográficas. Foi preciso:
 
-1. Construir quatro JSONs, cada um representando uma seção diferente do currículo. Os objetos criados precisaram seguir exatamente os nomes dentro do esquema abaixo. Para se certificar de que os JSONs estavam formatados corretamente foi usado o validador de sintaxe JSON em <a href="http://jsonlint.com/" target="_blank"> JSONlint.com</a>.
+1. Construir quatro JSONs, cada um representando uma seção diferente do currículo. Os objetos criados precisaram seguir exatamente os nomes dentro do esquema abaixo. Para se certificar de que os JSONs estavam formatados corretamente foi usado o validador de sintaxe JSON em <a href="http://jsonlint.com/" target="_blank">JSONlint.com</a>.
 
 * `bio` contém:
         
@@ -98,9 +98,9 @@ O currículo tem quatro secções distintas: trabalho, educação, projetos e um
 
 2. Foi construída uma iteração (loop) para cada JSON e adicionada a sua respectiva informação ao arquivo index.html na seção correta.
 
-* Primeiro de tudo, foram utilizadas as funções `selector.append()` e `selector.prepend()` do JQuery  para modificar o index.html.  A função `selector.append()` faz um elemento aparecer no final da seção - do HTML - selecionada e a função `selector.prepend()` faz um elemento aparecer no início da seção - do HTML - selecionada.
+* Primeiro de tudo, foram utilizadas as funções `selector.append()` e `selector.prepend()` do jQuery  para modificar o index.html.  A função `selector.append()` faz um elemento aparecer no final da seção - do HTML - selecionada e a função `selector.prepend()` faz um elemento aparecer no início da seção - do HTML - selecionada.
  	
-	* Preste bastante atenção nos ids dos `<div>`s no arquivo index.html e nos snippets de HTML no arquivo helper.js. Eles foram muito úteis como seletores do JQuery para os métodos `selector.append()` e `selector.prepend()`.
+	* Preste bastante atenção nos ids dos `<div>`s no arquivo index.html e nos snippets de HTML no arquivo helper.js. Eles foram muito úteis como seletores do jQuery para os métodos `selector.append()` e `selector.prepend()`.
    
 * Também foi usado o método (em Javascript)  `string.replace(old, new)` para trocar todo o texto do placeholder (por exemplo, `%data%`) pelos dados dos seus JSONs do seu currículo.
 
@@ -115,5 +115,5 @@ O currículo tem quatro secções distintas: trabalho, educação, projetos e um
 
 4. Todo o código para adicionar elementos ao currículo está contido em funções. E todas as suas funções estão encapsuladas dentro dos mesmos objetos que contém os dados do seu currículo. por exemplo, as funções para adicionar elementos que contém experiências profissionais à página são encontradas dentro do mesmo objeto que contêm os dados a respeito das experiências profissionais.
 
-5. O currículo deve também loga (usando `console.log()`) informação sobre os pontos aonde o usuário clicou na tela do currículo. Na linha 90 de  helper.js, você encontrará o handler do JQuery - onclick handler - que foi codificado, implementado para trabalhar com a função `logClicks(x,y)` - que está acima desse handler.
+5. O currículo deve também loga (usando `console.log()`) informação sobre os pontos aonde o usuário clicou na tela do currículo. Na linha 90 de  helper.js, você encontrará o handler do jQuery - onclick handler - que foi codificado, implementado para trabalhar com a função `logClicks(x,y)` - que está acima desse handler.
 6. **É possível adicionar informação que aparecerá no click dos pins no mapa. Verifique a linha 176 em helper.js e a API do Google Maps API como ponto de partida para adicionar esta funcionalidade. Este ponto ~~não~~ está implementado no atual momento.**
